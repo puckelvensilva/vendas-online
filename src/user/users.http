@@ -1,1 +1,14 @@
+### Lista usuarios
 GET http://localhost:3000/user
+
+### Cria usuarios
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "name": "kelven",
+    "email": "kelvenrsilva@hotmail.com",
+    "phone": "(31)988972684",
+    "cpf": "11111111111",
+    "password": "123@mudar"
+}
